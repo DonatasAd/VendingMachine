@@ -17,6 +17,7 @@ namespace vendingMachine.model
             large
         }
         public abstract void Prepare();
+
         public string DrinkName
         {
             get { return _drinkName; }

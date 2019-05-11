@@ -688,30 +688,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Danix\\.nuget\\packages\\": {},
+    "C:\\Users\\Ersan\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Danix\\source\\repos\\vendingMachine\\vendingMachine\\vendingMachine.csproj",
       "projectName": "vendingMachine",
-      "projectPath": "C:\\Users\\Danix\\source\\repos\\vendingMachine\\vendingMachine\\vendingMachine.csproj",
-      "packagesPath": "C:\\Users\\Danix\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Danix\\source\\repos\\vendingMachine\\vendingMachine\\obj\\",
+      "packagesPath": "C:\\Users\\Ersan\\.nuget\\packages\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Danix\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Ersan\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

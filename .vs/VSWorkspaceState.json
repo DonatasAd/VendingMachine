@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\vendingMachine",
+    "\\vendingMachine\\Adapter",
+    "\\vendingMachine\\Decorator",
+    "\\vendingMachine\\factories",
+    "\\vendingMachine\\models",
+    "\\vendingMachine\\Strategy"
+  ],
+  "SelectedNode": "\\vendingMachine\\Decorator\\MilkyDrinkDecorator.cs",
+  "PreviewInSolutionExplorer": false
+}

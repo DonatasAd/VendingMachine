@@ -11,10 +11,29 @@ namespace vendingMachine.Strategy
         public IHotDrink CreateDrink()
         {
             IHotDrink Coffee = DrinkFactory.CreateBlackCoffee();
+            Console.WriteLine("----------------------------------------------------");
+            Console.WriteLine("Do you want milk in your drink? ");
+            Console.WriteLine("----------------------------------------------------");
+            Console.WriteLine("1.Yes\n2.No ");
+            Console.WriteLine("----------------------------------------------------");
+
+            Console.Write("please input your answer: ");
+            string answer = Console.ReadLine().ToLower();
+
             bool confirmed = Coffee.ConfirmPayment(Coffee);
+
             if (confirmed)
             {
-                Coffee.Prepare();
+                if (answer.Equals("yes"))
+                {
+                    IHotDrink coffeeWithMilk = new MilkyDrinkDecorator(Coffee);
+                    coffeeWithMilk.Prepare();
+                }
+                else
+                {
+                    Coffee.Prepare();
+                }
+                            
             }
             else
             {

@@ -31,5 +31,6 @@ namespace vendingMachine.model
             string[] steps = { "Grinding some beans...", "Pouring Latte coffe in the cup...", "Latte Coffe is Ready." };
             PrintPrepareSteps(steps);
         }
+
     }
 }
