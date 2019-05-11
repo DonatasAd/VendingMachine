@@ -5,7 +5,7 @@ using System.Threading;
 using vendingMachine.Adapter;
 namespace vendingMachine.model
 {
-    abstract class IHotDrink
+    public abstract class IHotDrink
     {
         protected string _drinkName;
         protected int _drinkPrice;

@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using vendingMachine.factories;
 using vendingMachine.model;
+using vendingMachine.Strategy;
 
 namespace vendingMachine
 {
-    class Program
+    public class Program
     {
         public enum AvailableDrink
         {
@@ -24,57 +25,20 @@ namespace vendingMachine
                 }
                 Console.WriteLine("----------------------------------------------------");
                 Console.Write("Enter the drink name you would like to buy: ");
-                string DrinkName = Console.ReadLine().ToLower();
-                Console.Clear();
-                     
-                Console.Clear();
-                bool confirmed;
-                switch (DrinkName)
+                try
                 {
-                    case "tea":
-
-                        IHotDrink Tea = DrinkFactory.CreateTea();
-                        confirmed = Tea.ConfirmPayment(Tea);
-                        if (confirmed)
-                        {
-                            Tea.Prepare();
-                        }
-                        else
-                        {
-                            Console.Clear();
-                            Console.WriteLine("Incorrect payment, try again.");
-                        }
-                        Console.Clear();
-                        break;
-                    case "coffee":
-                        IHotDrink Coffee = DrinkFactory.CreateBlackCoffee();
-                        confirmed = Coffee.ConfirmPayment(Coffee);
-                        if (confirmed)
-                        {
-                            Coffee.Prepare();
-                        }
-                        else
-                        {
-                            Console.Clear();
-                            Console.WriteLine("Incorrect payment, try again.");
-                        }
-                        Console.Clear();
-                        break;
-                    case "latte":
-                        IHotDrink Latte = DrinkFactory.CreateLatte();
-                        confirmed = Latte.ConfirmPayment(Latte);
-                        if (confirmed)
-                        {
-                            Latte.Prepare();
-                        }
-                        else
-                        {
-                            Console.Clear();
-                            Console.WriteLine("Incorrect payment, try again.");
-                        }
-                        Console.Clear();
-                        break;
+                    AvailableDrink DrinkName = (AvailableDrink)Enum.Parse(typeof(AvailableDrink), Console.ReadLine().ToLower(), true);
+                    Context.CreateDrink(DrinkName);
                 }
+                catch
+                {
+                    Console.Clear();
+                    Console.WriteLine("----------------------------------------------------");
+                    Console.WriteLine("Wrong input please enter valid drink name. ");
+                }
+                
+                
+
             }         
         }
     }
