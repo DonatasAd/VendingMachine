@@ -37,16 +37,14 @@ namespace vendingMachine.model
         public bool ConfirmPayment(IHotDrink drink)
         {
             //Payment With Coins
-           Payment payment = new Payment();
-            payment.PrintPaymentDetails(drink);
-            string paymentId = Console.ReadLine().ToLower();
-            return new Payment().Pay(paymentId);
+            //Payment payment = new CoinPayment();
 
             //// Payment With Mobile Pay
-            //Payment payment = new MobilePayAdapter();
-            //payment.PrintPaymentDetails(drink);
-            //string paymentId = Console.ReadLine().ToLower();
-            //return new MobilePayAdapter().Pay(paymentId);  
+            Payment payment = new MobilePayAdapter();
+
+            payment.PrintPaymentDetails(drink);
+            string paymentId = Console.ReadLine().ToLower();
+            return payment.Pay(paymentId);
         }
         public void PrintPrepareSteps(string[] steps)
         {

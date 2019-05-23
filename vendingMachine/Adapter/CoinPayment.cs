@@ -6,12 +6,12 @@ using vendingMachine.model;
 
 namespace vendingMachine.Adapter
 {
-    class MobilePay
+    class CoinPayment : Payment
     {
-        public bool PayWithMobilePay(string paymentID)
+        public bool Pay(string paymentID)
         {
             Console.Clear();
-            Console.WriteLine("Mobile Pay payment confirmed.");
+            Console.WriteLine("Coins accepted");
             Thread.Sleep(1500);
             return true;
         }
@@ -23,9 +23,9 @@ namespace vendingMachine.Adapter
             Console.WriteLine("Drink Type: {0}\nDrink Size: {1}\nDrink Price: {2} DKK",
                 drink.DrinkName, drink.DrinkSize, drink.DrinkPrice);
             Console.WriteLine("----------------------------------------------------");
-            Console.WriteLine("To pay for the drink you need to transfer money to MobilePay acount - 123456");
+            Console.WriteLine("To pay for the drink please insert coins.");
             Console.WriteLine("----------------------------------------------------");
-            Console.Write("Enter transaction id to confirm your payment:");
+            Console.Write("Insert Coin:");
         }
     }
 }

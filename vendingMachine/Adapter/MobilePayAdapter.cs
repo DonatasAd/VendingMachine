@@ -9,12 +9,12 @@ namespace vendingMachine.Adapter
     {
         private MobilePay _mobilePay = new MobilePay();
 
-        public override bool Pay(string paymentID)
+        public bool Pay(string paymentID)
         {
-            return _mobilePay.ConfirmMobilePayPayment(paymentID);
+            return _mobilePay.PayWithMobilePay(paymentID);
         }
 
-        public override void PrintPaymentDetails(IHotDrink drink)
+        public void PrintPaymentDetails(IHotDrink drink)
         {
            _mobilePay.PrintPaymentDetails(drink);
         }

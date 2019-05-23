@@ -11,7 +11,6 @@ namespace vendingMachine.model
 
         public MilkyDrinkDecorator(IHotDrink decoratedDrink) : base(decoratedDrink)
         {
-           // super(decoratedDrink);
 
         }
 
