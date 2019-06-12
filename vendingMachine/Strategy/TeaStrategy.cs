@@ -10,7 +10,7 @@ namespace vendingMachine.Strategy
     {
         public IHotDrink CreateDrink()
         {
-            IHotDrink Tea = DrinkFactory.CreateTea();
+            IHotDrink Tea = DrinkFactory.CreateHotDrink(Program.AvailableDrink.Tea);
             bool confirmed = Tea.ConfirmPayment(Tea);
             if (confirmed)
             {

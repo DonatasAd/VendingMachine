@@ -11,7 +11,7 @@ namespace vendingMachine.Strategy
     {
         public IHotDrink CreateDrink()
         {
-            IHotDrink Latte = DrinkFactory.CreateLatte();
+            IHotDrink Latte = DrinkFactory.CreateHotDrink(Program.AvailableDrink.Latte);
             bool confirmed = Latte.ConfirmPayment(Latte);
             if (confirmed)
             {

@@ -10,7 +10,7 @@ namespace vendingMachine.Strategy
     {
         public IHotDrink CreateDrink()
         {
-            IHotDrink Coffee = DrinkFactory.CreateBlackCoffee();
+            IHotDrink Coffee = DrinkFactory.CreateHotDrink(Program.AvailableDrink.Coffee);
             Console.WriteLine("----------------------------------------------------");
             Console.WriteLine("Do you want milk in your drink? ");
             Console.WriteLine("----------------------------------------------------");

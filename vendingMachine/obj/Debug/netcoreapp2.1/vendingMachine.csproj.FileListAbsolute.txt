@@ -9,3 +9,14 @@ C:\Users\Danix\Desktop\KEA\Design Patterns Exam\VendingMachine\vendingMachine\ob
 C:\Users\Danix\Desktop\KEA\Design Patterns Exam\VendingMachine\vendingMachine\obj\Debug\netcoreapp2.1\vendingMachine.dll
 C:\Users\Danix\Desktop\KEA\Design Patterns Exam\VendingMachine\vendingMachine\obj\Debug\netcoreapp2.1\vendingMachine.pdb
 C:\Users\Danix\Desktop\KEA\Design Patterns Exam\VendingMachine\vendingMachine\obj\Debug\netcoreapp2.1\vendingMachine.csprojAssemblyReference.cache
+C:\Users\Danix\source\repos\vendingMachine\vendingMachine\bin\Debug\netcoreapp2.1\vendingMachine.deps.json
+C:\Users\Danix\source\repos\vendingMachine\vendingMachine\bin\Debug\netcoreapp2.1\vendingMachine.runtimeconfig.json
+C:\Users\Danix\source\repos\vendingMachine\vendingMachine\bin\Debug\netcoreapp2.1\vendingMachine.runtimeconfig.dev.json
+C:\Users\Danix\source\repos\vendingMachine\vendingMachine\bin\Debug\netcoreapp2.1\vendingMachine.dll
+C:\Users\Danix\source\repos\vendingMachine\vendingMachine\bin\Debug\netcoreapp2.1\vendingMachine.pdb
+C:\Users\Danix\source\repos\vendingMachine\vendingMachine\obj\Debug\netcoreapp2.1\vendingMachine.csproj.CoreCompileInputs.cache
+C:\Users\Danix\source\repos\vendingMachine\vendingMachine\obj\Debug\netcoreapp2.1\vendingMachine.AssemblyInfoInputs.cache
+C:\Users\Danix\source\repos\vendingMachine\vendingMachine\obj\Debug\netcoreapp2.1\vendingMachine.AssemblyInfo.cs
+C:\Users\Danix\source\repos\vendingMachine\vendingMachine\obj\Debug\netcoreapp2.1\vendingMachine.dll
+C:\Users\Danix\source\repos\vendingMachine\vendingMachine\obj\Debug\netcoreapp2.1\vendingMachine.pdb
+C:\Users\Danix\source\repos\vendingMachine\vendingMachine\obj\Debug\netcoreapp2.1\vendingMachine.csprojAssemblyReference.cache
