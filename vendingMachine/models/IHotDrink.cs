@@ -18,21 +18,21 @@ namespace vendingMachine.model
         }
         public abstract void Prepare();
 
-        public string DrinkName
+        public string GetDrinkName
         {
             get { return _drinkName; }
         }
 
-        public int DrinkPrice
+        public int GetDrinkPrice
         {
             get { return _drinkPrice; }
         }
 
-        public DrinkSizes DrinkSize
+        public DrinkSizes GetDrinkSize
         {
             get { return _drinkSize; }
         }
-        public abstract int GetDrinkPrice(DrinkSizes drinkSiz);
+        public abstract int CalculateDrinkPrice(DrinkSizes drinkSiz);
 
         public bool ConfirmPayment(IHotDrink drink)
         {

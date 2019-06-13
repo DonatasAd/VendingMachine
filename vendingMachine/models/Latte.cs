@@ -10,9 +10,9 @@ namespace vendingMachine.model
         {
             _drinkName = "Latte";
             _drinkSize = ReadDrinkSize();
-            _drinkPrice = GetDrinkPrice(_drinkSize);
+            _drinkPrice = CalculateDrinkPrice(_drinkSize);
         }
-        public override int GetDrinkPrice(DrinkSizes drinkSize)
+        public override int CalculateDrinkPrice(DrinkSizes drinkSize)
         {
             switch (drinkSize)
             {

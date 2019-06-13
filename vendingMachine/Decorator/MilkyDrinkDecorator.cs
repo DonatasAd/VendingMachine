@@ -14,7 +14,7 @@ namespace vendingMachine.model
 
         }
 
-        public override int GetDrinkPrice(DrinkSizes drinkSiz)
+        public override int CalculateDrinkPrice(DrinkSizes drinkSiz)
         {
             throw new NotImplementedException();
         }

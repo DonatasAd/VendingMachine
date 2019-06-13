@@ -21,7 +21,7 @@ namespace vendingMachine.Adapter
             Console.WriteLine("----------------------------------------------------");
             Console.WriteLine("Your drink details are below :");
             Console.WriteLine("Drink Type: {0}\nDrink Size: {1}\nDrink Price: {2} DKK",
-                drink.DrinkName, drink.DrinkSize, drink.DrinkPrice);
+                drink.GetDrinkName, drink.GetDrinkSize, drink.GetDrinkPrice);
             Console.WriteLine("----------------------------------------------------");
             Console.WriteLine("To pay for the drink please insert coins.");
             Console.WriteLine("----------------------------------------------------");

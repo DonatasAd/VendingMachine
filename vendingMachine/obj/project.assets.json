@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Danix\\Desktop\\KEA\\Design Patterns Exam\\VendingMachine\\vendingMachine\\vendingMachine.csproj",
+      "projectUniqueName": "C:\\Users\\Danix\\source\\repos\\vendingMachine\\vendingMachine\\vendingMachine.csproj",
       "projectName": "vendingMachine",
-      "projectPath": "C:\\Users\\Danix\\Desktop\\KEA\\Design Patterns Exam\\VendingMachine\\vendingMachine\\vendingMachine.csproj",
+      "projectPath": "C:\\Users\\Danix\\source\\repos\\vendingMachine\\vendingMachine\\vendingMachine.csproj",
       "packagesPath": "C:\\Users\\Danix\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Danix\\Desktop\\KEA\\Design Patterns Exam\\VendingMachine\\vendingMachine\\obj\\",
+      "outputPath": "C:\\Users\\Danix\\source\\repos\\vendingMachine\\vendingMachine\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
